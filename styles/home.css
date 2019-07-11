@@ -61,16 +61,19 @@ h1.main
 }
 h2.main
 {
-    margin: 0 0 0 2%;
+    margin: 0 0 10px 2%;
     font-size: 12pt;
     color: gray;
 
 }
+h6
+{
+    margin: 1pt 0 0 0;
+    font-size: 10pt;
+}
 img.main
 {
-    max-width: 10%;
-    max-height: 25%;
-    min-height: 25%;
+    width:100%;
     height: auto;
 }
 div.main
@@ -78,6 +81,15 @@ div.main
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+section.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 0;
+    padding: 0 1% 0 2%;
+    width: 20%;
 }
 /*----------------------------------------------------------------------------------------------*/
 footer
@@ -102,7 +114,7 @@ h1.footer
 {
     color: white;
     font-style: helvetica;
-    font-size: 18pt;
+    font-size: 12pt;
 }
 h2.footer
 {
