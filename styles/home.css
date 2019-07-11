@@ -17,12 +17,12 @@ header
     background:rgb(0, 0, 0);
     border: black;
     padding: 0px 0px 0px 50px;
-    height: 50px;
+    height: 100px;
     align-items: middle;
 }
 div.header
 {
-    height: 50px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,13 +32,13 @@ h1.header
 {
     color: white;
     font-style: helvetica;
-    font-size: 18pt;
+    font-size: 200%;
 }
 h2.header
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
+    font-size: 130%;
 }
 ul.header
 {
@@ -50,38 +50,44 @@ li.header
     padding: 0px 50px 0px 0px;
 }
 /*----------------------------------------------------------------------------------------------*/
-main
-{
-    width: 100%;
-}
+
 h1.main
 {
-    margin: 10px 0 0 2%;
+    margin: 10px 0 0 0;
     color:red;
 }
 h2.main
 {
-    margin: 0 0 10px 2%;
+    margin: 0 0 10px 0;
     font-size: 12pt;
     color: gray;
 
 }
-h6
+h3.main
 {
-    margin: 1pt 0 0 0;
+    margin: 0 0 10px 0;
+    font-size: 12pt;
+    color: gray;
+
+}
+h1.main-right
+{
+    margin: 4% 0 0 4%;
     font-size: 10pt;
-    text-align: center;
+    background-color: gray;
 }
 img.main
 {
     height: auto;
     width: 100%;
+    border-bottom:3px solid Black;
 }
 section.main
 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    height: 100vh;
 }
 div.main-left
 {
@@ -89,8 +95,9 @@ div.main-left
     flex-direction: column;
     align-items: right;
     margin: 0 0 0 0;
-    padding: 0 1% 0 2%;
+    padding: 0 2% 0 2%;
     width: 60%;
+    background-color: white;
 }
 div.main-right
 {
@@ -100,8 +107,11 @@ div.main-right
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: 40%;
+    background-color: gray;
+    border-left:3px solid Black;
 }
-/*----------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------------------*/  
 footer
 {   
     background:rgb(0, 0, 0);
@@ -109,7 +119,7 @@ footer
     padding: 0px 50px 0px 50px;
     height: 50px;
     align-items: middle;
-    width:auto;
+    width: auto;
     margin-top: auto;
 }
 div.footer
@@ -124,11 +134,11 @@ h1.footer
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
+    font-size: 120%;
 }
 h2.footer
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
+    font-size: 110%;
 }
