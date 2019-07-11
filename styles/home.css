@@ -64,12 +64,15 @@ main
     margin: 10px 0 0 0;
     color:black;
     font-size: 42pt;
+    font-weight: 600;
 }
 .main-left h2
 {
     margin: 0 0 10px 0;
     color: black;
-    font-size: 18pt;
+    font-size: 16pt;
+    font-weight: 100;
+    font: helvetica;
 }
 .main-left h3
 {
