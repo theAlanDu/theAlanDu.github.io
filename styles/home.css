@@ -52,7 +52,7 @@ li.header
 /*----------------------------------------------------------------------------------------------*/
 main
 {
-
+    width: 100%;
 }
 h1.main
 {
@@ -70,26 +70,36 @@ h6
 {
     margin: 1pt 0 0 0;
     font-size: 10pt;
+    text-align: center;
 }
 img.main
 {
-    width:80%;
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
-div.main
+section.main
 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-section.main
+div.main-left
 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     margin: 0 0 0 0;
     padding: 0 1% 0 2%;
-    width: 20%;
+    width: 60%;
+}
+div.main-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 40%;
 }
 /*----------------------------------------------------------------------------------------------*/
 footer
