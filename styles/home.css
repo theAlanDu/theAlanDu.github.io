@@ -12,6 +12,7 @@ body
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/KawiH2.jpg);
     background-size:3000px auto;
     background-position: 2500px;
+    background-repeat: no-repeat;
     border: gray;
 }
 /*----------------------------------------------------------------------------------------------*/
@@ -53,6 +54,32 @@ header
 {
     padding: 0px 50px 0px 0px;
 }
+.header a
+{
+    font-style: helvetica;
+    font-size: 2vh;
+    color: white;
+    
+}
+a:link
+{
+    color: white;
+    text-decoration: none;
+}
+  a:visited {
+    color:white;
+    text-decoration: none;
+}
+a:hover
+{
+    color:gray;
+    text-decoration: none;
+}
+a:active 
+{
+    color: white;
+    text-decoration: none;
+} 
 /*----------------------------------------------------------------------------------------------*/
 main
 {   
@@ -111,7 +138,7 @@ section.main
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    min-height: calc(100vh - 150px);
+    min-height: calc(100vh - 170px);
     border: 5px solid rgb(48, 48, 48);
 }
 div.main-left

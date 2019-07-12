@@ -1,112 +1,156 @@
 body
 {
     width: auto;
-    margin:auto;
-    padding:0;
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-
-    border: black;
-    background-color: rgb(71, 71, 71)
+    
+    
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/FlyBy.jpg);
+    background-size:auto;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    border: gray;
+    background-color: black;
 }
 /*----------------------------------------------------------------------------------------------*/
 header
 {
+    padding: 0px 0px 0px 50px;
+    height: 100px;
+
     background:rgb(0, 0, 0);
     border: black;
-    padding: 0px 0px 0px 50px;
-    height: 50px;
-    align-items: middle;
 }
-div.header
+.header div
 {
-    height: 50px;
+    height: 100px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-h1.header
+.header h1
 {
     color: white;
     font-style: helvetica;
-    font-size: 18pt;
+    font-size: 300%;
 }
-h2.header
+.header h2
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
+    font-size: 120%;
 }
-ul.header
+.header ul
 {
     display: flex;
     flex-direction: row;
 }
-li.header
+.header li
 {
     padding: 0px 50px 0px 0px;
 }
-/*----------------------------------------------------------------------------------------------*/
+.header a
+{
+    font-style: helvetica;
+    font-size: 2vh;
+    color: white;   
+}
+a:link
+{
+    color: white;
+    text-decoration: none;
+}
+  a:visited {
+    color:white;
+    text-decoration: none;
+}
+a:hover
+{
+    color:gray;
+    text-decoration: none;
+}
+a:active 
+{
+    color: white;
+    text-decoration: none;
+} 
+/*----------------------------------------------------------------------------------------------*/  
 main
 {
+    min-height: calc(100vh - 170px);
+}
+.main section
+{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 30vh; 
 
-}
-h1.main
-{
-    margin: 10px 0 0 2%;
-    color:red;
-}
-h2.main
-{
-    margin: 0 0 0 2%;
-    font-size: 12pt;
-    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
 
+    background-color:rgba(78, 78, 78, 0.6);
+    
 }
-img.main
+#email, #instagram, #linkedin
 {
-    max-width: 10%;
-    max-height: 25%;
-    min-height: 25%;
-    height: auto;
-}
-div.main
-{
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: left;
 }
-/*----------------------------------------------------------------------------------------------*/
+.main h1
+{
+    margin: 0 0 0 10px;
+    font-size: 5vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.main button
+{
+    text-align: left;
+    
+}
+
+/*----------------------------------------------------------------------------------------------*/  
 footer
 {   
+    width: auto;
+    height: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px 50px 0px 50px;
+
     background:rgb(0, 0, 0);
     border: black;
-    padding: 0px 50px 0px 50px;
-    height: 50px;
-    align-items: middle;
-    width:auto;
-    margin-top: auto;
 }
-div.footer
+.footer div
 {
-    height: 50px;
+    height: 70px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-h1.footer
+.footer h1
 {
     color: white;
     font-style: helvetica;
-    font-size: 18pt;
+    font-size: 120%;
 }
-h2.footer
+.footer h2
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
+    font-size: 110%;
 }
