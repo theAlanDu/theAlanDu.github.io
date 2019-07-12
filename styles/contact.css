@@ -10,7 +10,7 @@ body
     
     
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/FlyBy.jpg);
-    background-size: 220vh;
+    background-size: 225vh;
     background-position: 60%;
     background-repeat: no-repeat;
     border: gray;
@@ -38,27 +38,28 @@ header
 {
     color: white;
     font-style: helvetica;
-    font-size: 4vh;
+    font-size: 24pt;
 }
 .header h2
 {
     color: white;
     font-style: helvetica;
-    font-size: 2vh;
+    font-size: 12pt;
 }
 .header ul
 {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 .header li
 {
-    padding: 0px 5vh 0px 0;
+    padding: 0px 20px 0px 0;
 }
 .header a
 {
     font-style: helvetica;
-    font-size: 2vh;
+    font-size: 10pt;
     color: white;   
 }
 a:link
@@ -91,12 +92,12 @@ main
     top: 15%;
     left: 5%;
     width: 250px; 
-    padding: 0 0vh 1vh 1vh;
+    padding: 5px 5px 5px 5px;
     
     display: flex;
     flex-direction: column;
 
-    background-color:rgba(78, 78, 78, 0.6);
+    background-color:rgba(78, 78, 78, 0.90);
 }
 #email, #instagram, #linkedin
 {
@@ -108,9 +109,9 @@ main
 #email button
 {
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/gmail.png);
-    background-size: 5vh 5vh;
+    background-size: 35px 35px;
     height: 100%;  
-    width: 6vh;
+    width: 35px;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -121,9 +122,9 @@ main
 #instagram button
 {
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/instagram.png);
-    background-size: 5vh 5vh;
+    background-size: 35px 35px;
     height: 100%;  
-    width: 6vh;
+    width: 35px;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -134,9 +135,9 @@ main
 #linkedin button
 {
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/linkedin.png);
-    background-size: 5vh 5vh;
+    background-size: 35px 35px;
     height: 100%;  
-    width: 6vh;
+    width: 35px;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, 0);
     border: none;
@@ -145,8 +146,8 @@ main
 }
 .main h1
 {
-    margin: 2vh 0 2vh 0;
-    font-size: 4vh;
+    margin: 5px 0 5px 0;
+    font-size: 24pt;
     color: white;
     text-shadow: 5px 5px 5px black;
 }
@@ -155,7 +156,7 @@ main
     margin-right: 10px;
     text-align: top;
     font-weight: 600;
-    font-size: 2.25vh;
+    font-size: 12pt;
     color: white;
     text-shadow: 5px 5px 5px black;
 }
@@ -167,7 +168,7 @@ footer
     height: 70px;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 0px 4vh 0px 4vh;
+    padding: 0px 2vh 0px 2vh;
 
     background:rgb(0, 0, 0);
     border: black;

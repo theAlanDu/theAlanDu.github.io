@@ -36,27 +36,28 @@ header
 {
     color: white;
     font-style: helvetica;
-    font-size: 4vh;
+    font-size: 24pt;
 }
 .header h2
 {
     color: white;
     font-style: helvetica;
-    font-size: 2vh;
+    font-size: 12pt;
 }
 .header ul
 {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 .header li
 {
-    padding: 0px 5vh 0px 0;
+    padding: 0px 20px 0px 0;
 }
 .header a
 {
     font-style: helvetica;
-    font-size: 2vh;
+    font-size: 10pt;
     color: white;   
 }
 a:link
@@ -77,7 +78,7 @@ a:active
 {
     color: white;
     text-decoration: none;
-} 
+}
 /*----------------------------------------------------------------------------------------------*/
 main
 {   
@@ -172,7 +173,7 @@ footer
     height: 70px;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 2vh 0px 2vh;
 
     background:rgb(0, 0, 0);
     border: black;
