@@ -8,17 +8,16 @@ body
     display: flex;
     flex-direction: column;
     
-    
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/KawiH2.jpg);
-    background-size:3000px auto;
-    background-position: 2500px;
+    background-size:3500px auto;
+    background-position: 30%;
     background-repeat: no-repeat;
     border: gray;
 }
 /*----------------------------------------------------------------------------------------------*/
 header
 {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 4vh;
     height: 100px;
 
     background:rgb(0, 0, 0);
@@ -37,13 +36,13 @@ header
 {
     color: white;
     font-style: helvetica;
-    font-size: 300%;
+    font-size: 4vh;
 }
 .header h2
 {
     color: white;
     font-style: helvetica;
-    font-size: 120%;
+    font-size: 2vh;
 }
 .header ul
 {
@@ -52,14 +51,13 @@ header
 }
 .header li
 {
-    padding: 0px 50px 0px 0px;
+    padding: 0px 4vh 0px 0px;
 }
 .header a
 {
     font-style: helvetica;
     font-size: 2vh;
-    color: white;
-    
+    color: white;   
 }
 a:link
 {
