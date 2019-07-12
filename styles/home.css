@@ -17,7 +17,7 @@ body
 /*----------------------------------------------------------------------------------------------*/
 header
 {
-    padding: 0px 0px 0px 4vh;
+    padding: 0px 0px 0px 15px;
     height: 100px;
 
     background:rgb(0, 0, 0);
@@ -51,7 +51,7 @@ header
 }
 .header li
 {
-    padding: 0px 4vh 0px 0px;
+    padding: 0px 5vh 0px 0;
 }
 .header a
 {

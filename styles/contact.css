@@ -19,7 +19,7 @@ body
 /*----------------------------------------------------------------------------------------------*/
 header
 {
-    padding: 0px 0px 0px 4vh;
+    padding: 0px 0px 0px 15px;
     height: 100px;
 
     background:rgb(0, 0, 0);
@@ -53,7 +53,7 @@ header
 }
 .header li
 {
-    padding: 0px 4vh 0px 0px;
+    padding: 0px 5vh 0px 0;
 }
 .header a
 {
@@ -90,7 +90,7 @@ main
     position: absolute;
     top: 15%;
     left: 5%;
-    width: 29vh; 
+    width: 250px; 
     padding: 0 0vh 1vh 1vh;
     
     display: flex;
@@ -156,6 +156,8 @@ main
     text-align: top;
     font-weight: 600;
     font-size: 2.25vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
 
 /*----------------------------------------------------------------------------------------------*/  
