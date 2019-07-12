@@ -80,7 +80,7 @@ main
 /*----------------------------------------------------------------------------------------------*/
 button.notes
 {
-    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/list.png);
     background-size: 500px 500px;
 }
 .notes div
@@ -98,7 +98,7 @@ button.notes
 /*----------------------------------------------------------------------------------------------*/
 button.tennis
 {
-    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/TennisNotes.jpg);
     background-size: 500px 500px;
 }
 .tennis div
@@ -116,7 +116,7 @@ button.tennis
 /*----------------------------------------------------------------------------------------------*/
 button.stories
 {
-    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/ProfilePic.jpg);
     background-size: 500px 500px;
 }
 .stories div
