@@ -8,7 +8,6 @@ body
     display: flex;
     flex-direction: column;
     
-    
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/FlyBy.jpg);
     background-size: 225vh;
     background-position: 60%;
@@ -17,70 +16,6 @@ body
     background-color: black;
 }
 /*----------------------------------------------------------------------------------------------*/
-header
-{
-    padding: 0px 0px 0px 15px;
-    height: 100px;
-
-    background:rgb(0, 0, 0);
-    border: black;
-}
-.header div
-{
-    height: 100px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.header h1
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 24pt;
-}
-.header h2
-{
-    color: white;
-    font-style: helvetica;
-}
-.header ul
-{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-.header li
-{
-    padding: 0px 20px 0px 0;
-}
-.header a
-{
-    font-style: helvetica;
-    font-size: 15pt;
-    color: white;   
-}
-a:link
-{
-    color: white;
-    text-decoration: none;
-}
-  a:visited {
-    color:white;
-    text-decoration: none;
-}
-a:hover
-{
-    color:gray;
-    text-decoration: none;
-}
-a:active 
-{
-    color: white;
-    text-decoration: none;
-} 
-/*----------------------------------------------------------------------------------------------*/  
 main
 {
     min-height: calc(100vh - 170px);
@@ -100,7 +35,6 @@ main
 }
 #email, #instagram, #linkedin
 {
-
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -158,38 +92,4 @@ main
     font-size: 12pt;
     color: white;
     text-shadow: 5px 5px 5px black;
-}
-
-/*----------------------------------------------------------------------------------------------*/  
-footer
-{   
-    width: auto;
-    height: 70px;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0px 2vh 0px 2vh;
-
-    background:rgb(0, 0, 0);
-    border: black;
-}
-.footer div
-{
-    height: 70px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer h1
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 120%;
-}
-.footer h2
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 110%;
 }

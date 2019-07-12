@@ -1,112 +1,133 @@
 body
 {
     width: auto;
-    margin:auto;
-    padding:0;
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-
-    border: black;
-    background-color: rgb(71, 71, 71)
-}
-/*----------------------------------------------------------------------------------------------*/
-header
-{
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 0px 0px 50px;
-    height: 50px;
-    align-items: middle;
-}
-div.header
-{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-h1.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 18pt;
-}
-h2.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
-}
-ul.header
-{
-    display: flex;
-    flex-direction: row;
-}
-li.header
-{
-    padding: 0px 50px 0px 0px;
+    
+    background-color: rgb(168, 168, 168);
+    border: gray;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
 {
-
+    min-height: 100vh;
+    width: 100%;
 }
-h1.main
+.main button
 {
-    margin: 10px 0 0 2%;
-    color:red;
+    margin: 5px 5px 5px 5px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.377);
+    border: 2px solid black;
+    
 }
-h2.main
-{
-    margin: 0 0 0 2%;
-    font-size: 12pt;
-    color: gray;
-
-}
-img.main
-{
-    max-width: 10%;
-    max-height: 25%;
-    min-height: 25%;
-    height: auto;
-}
-div.main
+.main section
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.main button:hover
+{
+    background-color: rgba(255, 255, 255, 0.61);
+    background-image: none;
+}
+.main button:hover h1
+{
+    color: black;
+    opacity: 0;
+}
+.main h2
+{
+    font-size: 18pt;
+    font: helvetica;
+}
+.main h3
+{
+    font-size: 12pt;
+    font: helvetica;
+}
+
+
+
+
+
+
+.main h1
+{
+    width: 100px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0 0px 0 0;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    position: relative;
+    top: -35%;
+    left: 2%;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+button.notes
+{
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-size: 500px 500px;
+}
+.notes div
+{
+    position: relative;
+    top: -40%;
+    left: 0%;
+    opacity: 0;
+}
+.main button:hover.notes div
+{
+    color: black;
+    opacity: 1;
 }
 /*----------------------------------------------------------------------------------------------*/
-footer
-{   
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 50px 0px 50px;
-    height: 50px;
-    align-items: middle;
-    width:auto;
-    margin-top: auto;
-}
-div.footer
+button.tennis
 {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-size: 500px 500px;
 }
-h1.footer
+.tennis div
 {
-    color: white;
-    font-style: helvetica;
-    font-size: 18pt;
+    position: relative;
+    top: -40%;
+    left: 0%;
+    opacity: 0;
 }
-h2.footer
+.main button:hover.tennis div
 {
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
+    color: black;
+    opacity: 1;
+}
+/*----------------------------------------------------------------------------------------------*/
+button.stories
+{
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/ProfilePic.jpg);
+    background-size: 500px 500px;
+}
+.stories div
+{
+    position: relative;
+    top: -40%;
+    left: 0%;
+    opacity: 0;
+}
+.main button:hover.stories div
+{
+    color: black;
+    opacity: 1;
 }
