@@ -9,7 +9,7 @@ body
     flex-direction: column;
     
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/KawiH2.jpg);
-    background-size:3500px auto;
+    background-size:3700px auto;
     background-position: 30%;
     background-repeat: no-repeat;
     border: gray;
@@ -42,7 +42,6 @@ header
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
 }
 .header ul
 {
@@ -57,7 +56,7 @@ header
 .header a
 {
     font-style: helvetica;
-    font-size: 10pt;
+    font-size: 15pt;
     color: white;   
 }
 a:link

@@ -44,7 +44,6 @@ header
 {
     color: white;
     font-style: helvetica;
-    font-size: 12pt;
 }
 .header ul
 {
@@ -59,7 +58,7 @@ header
 .header a
 {
     font-style: helvetica;
-    font-size: 10pt;
+    font-size: 15pt;
     color: white;   
 }
 a:link
