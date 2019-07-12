@@ -19,7 +19,7 @@ main
 }
 .main button
 {
-    margin: 5px 5px 5px 5px;
+    margin: 100px 5px 10px 5px;
     width: 500px;
     height: 500px;
     background-color: rgba(128, 128, 128, 0.377);
@@ -55,12 +55,6 @@ main
     font-size: 12pt;
     font: helvetica;
 }
-
-
-
-
-
-
 .main h1
 {
     width: 100px;
@@ -73,10 +67,6 @@ main
     top: -35%;
     left: 2%;
 }
-
-
-
-
 /*----------------------------------------------------------------------------------------------*/
 button.notes
 {
