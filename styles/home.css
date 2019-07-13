@@ -3,7 +3,7 @@ body
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
     background-position: 30%;
     background-repeat: no-repeat;
-    background-size: auto 5000px;
+    background-size: auto 100%;
     border: gray;
     display: flex;
     flex-direction: column;
