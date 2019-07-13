@@ -1,3 +1,4 @@
+
 body
 {    
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
@@ -94,3 +95,28 @@ div.main-right
     padding: 0 0 0 0;
     width: 40%;
 }
+@media screen and (min-width: 700px)
+{
+    .main-left h1
+    {
+        color:black;
+        font-size: 3pt;
+        font-weight: 600;
+        margin: 10px 0 0 0;
+    }
+    .main-left h2
+    {
+        color: black;
+        font-size: 24pt;
+        font-weight: 100;
+        font: helvetica;
+        margin: 0 0 10px 0;
+    }
+    .main-left h3
+    {
+        color: black;
+        font-size: 30pt;
+        text-align: center;
+    }
+}
+/*----------------------------------------------------------------------------------------------*/
