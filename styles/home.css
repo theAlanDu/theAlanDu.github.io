@@ -2,9 +2,9 @@
 body
 {    
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-position: 30%;
+    background-position: 35%;
     background-repeat: no-repeat;
-    background-size: auto 150%;
+    background-size: 800vh;
     border: gray;
     display: flex;
     flex-direction: column;
@@ -105,6 +105,20 @@ div.main-right
 /*----------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 600px)
 {
+    body
+    {    
+        background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
+        background-position: 30%;
+        background-repeat: no-repeat;
+        background-size: auto 110%;
+        border: gray;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        min-height: 100vh;
+        padding: 0;
+        width: 100%;
+    }    
     .main-left h1
     {
         color:black;
