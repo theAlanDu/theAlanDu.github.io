@@ -2,43 +2,40 @@ header
 {
     background:rgb(0, 0, 0);
     border: black;
-    height: 150px;
-    padding: 0px 20px 0px 20px;
+    height: 75px;
+    width: 100%;
 }
 .header div
 {
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 150px;
+    height: 75px;
     justify-content: space-between;
+    margin-left: 15px;
 }
 .header h1
 {
     color: white;
-    font-size: 50pt;
+    font-size: 18pt;
     font-style: helvetica;
 }
 .header h2
 {
     color: white;
     font-style: helvetica;
+    font-size: 12pt;
 }
 .header ul
 {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin-right: 20px;
 }
 .header li
 {
-    padding: 0px 30px 0px 0;
-}
-.header a
-{
-    color: white; 
-    font-size: 30pt;
-    font-style: helvetica;
+    padding: 0px 10px 0px 0;
 }
 a:link
 {
@@ -64,37 +61,35 @@ footer
 {   
     background:rgb(0, 0, 0);
     border: black;
-    height: 140px;
-    margin-bottom: auto; 
+    height: 80px; 
     margin-top: auto;
-    padding: 0px 2vh 0px 2vh;
-    width: auto;
+    width: 100%;
 }
 .footer div
 {
     align-items: center;
     display: flex;
     flex-direction: row;
-    height: 140px;
-    justify-content: space-between;
+    height: 80px;
+    justify-content: space-evenly;
 }
 .footer h1
 {
     color: white;
-    font-size: 24pt;
+    font-size: 12pt;
     font-style: helvetica;
     font-weight: 300;
-    margin-right: 50px;
-    text-align: end;
-    
+    margin-left: 10px;
+    text-align: start;
 }
 .footer h2
 {
     color: white;
     margin-right: 25px;
-    font-size: 20pt;
+    font-size: 10pt;
     font-style: helvetica;
     font-weight: 400;
+    text-align: center;
 }
 div.button
 {
@@ -106,30 +101,30 @@ div.button
     background-color: rgba(255, 255, 255, 0);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/gmail.png);
     background-repeat: no-repeat; 
-    background-size: 120px 135px;
+    background-size: 50px 50px;
     border: none;
     color: white;
     cursor: pointer;
-    height: 135px;
-    margin-right: 15px;
+    height: 50px;
+    margin-right: 10px;
     text-indent: -999999px;  
-    width: 120px;
+    width:50px;
 }
 #instagram button
 {
     background-color: rgb(255, 255, 255);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/instagram.png);
-    background-size: 100px 100px;
+    background-size: 28px 28px;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
     color: white;
     cursor: pointer;
-    height: 105px;
-    margin-right: 15px;
+    height: 41px;
+    margin-right: 10px;
     text-indent: -999999px;
-    width: 105px;
+    width: 45px;
 }
 #linkedin button
 {
@@ -137,14 +132,126 @@ div.button
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/linkedin.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 125px; 
+    background-size: 50px; 
     border: none;
     bottom:-15%;
     color: white;
     cursor: pointer;
-    height: 120px;
-    margin-right: 15px;
+    height: 50px;
+    margin-right: 5px;
     position: relative;
     text-indent: -999999px;
-    width: 130px;
+    width: 50px;
+}
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 600px)
+{
+    header
+    {
+        background:rgb(0, 0, 0);
+        border: black;
+        height: 60px;
+        width: 100%;
+    }
+    .header div
+    {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        justify-content: space-between;
+    }
+    .header h1
+    {
+        color: white;
+        font-size: 32pt;
+        font-style: helvetica;
+    }
+    .header h2
+    {
+        color: white;
+        font-style: helvetica;
+        font-size: 18pt;
+        font-weight: 600;
+    }    
+    footer
+    {   
+        background:rgb(0, 0, 0);
+        border: black;
+        height: 50px; 
+        width: auto;
+    }
+    .footer div
+    {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        justify-content: space-between;
+    }
+    .footer h1
+    {
+        color: white;
+        font-size: 15pt;
+        font-style: helvetica;
+        font-weight: 300;
+        margin-right: 50px;
+        text-align: end;
+        
+    }
+    .footer h2
+    {
+        color: white;
+        margin-right: 25px;
+        font-size: 12pt;
+        font-style: helvetica;
+        font-weight: 400;
+    }        
+    #email button
+    {
+        background-color: rgba(255, 255, 255, 0);
+        background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/gmail.png);
+        background-repeat: no-repeat; 
+        background-size: 30px 35px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        height: 35px;
+        margin-right: 15px;
+        text-indent: -999999px;  
+        width: 30px;
+    }
+    #instagram button
+    {
+        background-color: rgb(255, 255, 255);
+        background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/instagram.png);
+        background-size: 28px 28px;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        height: 30px;
+        margin-right: 15px;
+        text-indent: -999999px;
+        width: 30px;
+    }
+    #linkedin button
+    {
+        background-color: rgba(255, 255, 255, 0);
+        background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/linkedin.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 35px; 
+        border: none;
+        bottom:-15%;
+        color: white;
+        cursor: pointer;
+        height: 35px;
+        margin-right: 15px;
+        position: relative;
+        text-indent: -999999px;
+        width: 35px;
+    }
 }

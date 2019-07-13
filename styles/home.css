@@ -4,14 +4,14 @@ body
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
     background-position: 30%;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto 150%;
     border: gray;
     display: flex;
     flex-direction: column;
     margin: auto;
     min-height: 100vh;
     padding: 0;
-    width: auto;
+    width: 100%;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
@@ -22,14 +22,14 @@ main
 .main-left h1
 {
     color:black;
-    font-size: 50pt;
+    font-size: 20pt;
     font-weight: 600;
     margin: 10px 0 0 0;
 }
 .main-left h2
 {
     color: black;
-    font-size: 30pt;
+    font-size: 13pt;
     font-weight: 100;
     font: helvetica;
     margin: 0 0 10px 0;
@@ -37,23 +37,23 @@ main
 .main-left h3
 {
     color: black;
-    font-size: 35pt;
+    font-size: 20pt;
     text-align: center;
 }
 .main-right h1
 {
     color: whitesmoke;
-    font-size: 50pt;
+    font-size: 15pt;
     font-weight: 300;
-    margin: 1% 0 0 1%;
+    margin: 2px 0 10px 2px;
     text-shadow: 2px 2px 2px black;
 }
 .main-right h2
 {
     color: whitesmoke;
-    font-size: 30pt;
+    font-size: 12pt;
     font-weight: 300;
-    margin: 0 0 0 1%;
+    margin: 0 10px 0 0;
     text-shadow: 2px 2px 2px black;
 }
 .main-right img
@@ -65,6 +65,12 @@ main
 .main-right ul
 {
     list-style-type: none;
+    text-align: left;
+    margin: 0 0 0 -38px;
+}
+.main-right li
+{
+    margin-bottom: 2px;
 }
 section.main
 {
@@ -95,19 +101,21 @@ div.main-right
     padding: 0 0 0 0;
     width: 40%;
 }
-@media screen and (min-width: 650px)
+
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 600px)
 {
     .main-left h1
     {
         color:black;
-        font-size: 35pt;
+        font-size: 40pt;
         font-weight: 600;
         margin: 10px 0 0 0;
     }
     .main-left h2
     {
         color: black;
-        font-size: 24pt;
+        font-size: 15pt;
         font-weight: 100;
         font: helvetica;
         margin: 0 0 10px 0;
@@ -115,8 +123,23 @@ div.main-right
     .main-left h3
     {
         color: black;
-        font-size: 30pt;
+        font-size: 20pt;
         text-align: center;
     }
+    .main-right h1
+    {
+        color: whitesmoke;
+        font-size: 20pt;
+        font-weight: 300;
+        margin: 2px 0 10px 2px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .main-right h2
+    {
+        color: whitesmoke;
+        font-size: 16pt;
+        font-weight: 300;
+        margin: 0 0 0 1%;
+        text-shadow: 2px 2px 2px black;
+    }    
 }
-/*----------------------------------------------------------------------------------------------*/
