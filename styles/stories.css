@@ -1,112 +1,75 @@
-body
-{
-    width: auto;
-    margin:auto;
-    padding:0;
 
+body
+{    
+    background-image: url();
+    background-position: 35%;
+    background-repeat: no-repeat;
+    background-size: 800vh;
+    border: gray;
     display: flex;
     flex-direction: column;
+    margin: auto;
     min-height: 100vh;
-
-    border: black;
-    background-color: rgb(71, 71, 71)
-}
-/*----------------------------------------------------------------------------------------------*/
-header
-{
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 0px 0px 50px;
-    height: 50px;
-    align-items: middle;
-}
-div.header
-{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-h1.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 18pt;
-}
-h2.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
-}
-ul.header
-{
-    display: flex;
-    flex-direction: row;
-}
-li.header
-{
-    padding: 0px 50px 0px 0px;
+    padding: 0;
+    width: 100%;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
-{
-
-}
-h1.main
-{
-    margin: 10px 0 0 2%;
-    color:red;
-}
-h2.main
-{
-    margin: 0 0 0 2%;
-    font-size: 12pt;
-    color: gray;
-
-}
-img.main
-{
-    max-width: 10%;
-    max-height: 25%;
-    min-height: 25%;
-    height: auto;
-}
-div.main
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-/*----------------------------------------------------------------------------------------------*/
-footer
 {   
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 50px 0px 50px;
-    height: 50px;
-    align-items: middle;
-    width:auto;
-    margin-top: auto;
-}
-div.footer
-{
-    height: 50px;
+    font: helvetica;
+    min-height: calc (100vh - 150px);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
 }
-h1.footer
+
+.main img
 {
-    color: white;
-    font-style: helvetica;
+    border-bottom:5px solid rgb(48, 48, 48);
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main h1
+{
+    font: helvetica;
     font-size: 18pt;
 }
-h2.footer
+.main h2
 {
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
+    font: helvetica;
+    font-size: 12pt;    
+}
+.main h3
+{
+    font: helvetica;
+    font-size: 15pt;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 600px)
+{
+    .main img
+    {
+        border-bottom:5px solid rgb(48, 48, 48);
+        height: auto;
+        width: 100%;
+    }
+    .main h1
+    {
+        font: helvetica;
+        font-size: 18pt;
+    }
+    .main h2
+    {
+        font: helvetica;
+        font-size: 12pt;    
+    }
+    .main h3
+    {
+        font: helvetica;
+        font-size: 15pt;
+    } 
 }
