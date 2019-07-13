@@ -96,12 +96,12 @@ div.button
     background-color: rgba(255, 255, 255, 0);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/gmail.png);
     background-repeat: no-repeat; 
-    background-size: 50px 50px;
+    background-size: 50px auto;
     border: none;
     color: white;
     cursor: pointer;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 6px;
     text-indent: -999999px;  
     width:50px;
 }
@@ -109,17 +109,17 @@ div.button
 {
     background-color: rgb(255, 255, 255);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/Logos/instagram.png);
-    background-size: 28px 28px;
+    background-size: 38px auto;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     color: white;
     cursor: pointer;
-    height: 41px;
-    margin-right: 10px;
+    height: 40px;
+    margin-right: 6px;
     text-indent: -999999px;
-    width: 45px;
+    width: 40px;
 }
 #linkedin button
 {
