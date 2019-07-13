@@ -1,67 +1,65 @@
 body
-{
-    width: auto;
-    margin: auto;
-    padding: 0;
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    
+{    
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-size:3900px auto;
     background-position: 30%;
     background-repeat: no-repeat;
+    background-size: auto 5000px;
     border: gray;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+    padding: 0;
+    width: auto;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
 {   
-    padding:20px;
     font: helvetica;
+    padding:20px;
 }
 .main-left h1
 {
-    margin: 10px 0 0 0;
     color:black;
-    font-size: 42pt;
+    font-size: 50pt;
     font-weight: 600;
+    margin: 10px 0 0 0;
 }
 .main-left h2
 {
-    margin: 0 0 10px 0;
     color: black;
-    font-size: 16pt;
+    font-size: 30pt;
     font-weight: 100;
     font: helvetica;
+    margin: 0 0 10px 0;
 }
 .main-left h3
 {
     color: black;
-    font-size: 24pt;
+    font-size: 35pt;
     text-align: center;
 }
 .main-right h1
 {
     color: whitesmoke;
-    margin: 1% 0 0 1%;
-    font-size: 24pt;
+    font-size: 50pt;
     font-weight: 300;
+    margin: 1% 0 0 1%;
     text-shadow: 2px 2px 2px black;
 }
 .main-right h2
 {
     color: whitesmoke;
-    margin: 0 0 0 1%;
-    font-size: 18pt;
+    font-size: 30pt;
     font-weight: 300;
+    margin: 0 0 0 1%;
     text-shadow: 2px 2px 2px black;
 }
 .main-right img
 {
+    border-bottom:5px solid rgb(48, 48, 48);
     height: auto;
     width: 100%;
-    border-bottom:5px solid rgb(48, 48, 48);
 }
 .main-right ul
 {
@@ -69,34 +67,30 @@ main
 }
 section.main
 {
+    border: 5px solid rgb(48, 48, 48);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     min-height: calc(100vh - 170px);
-    border: 5px solid rgb(48, 48, 48);
 }
 div.main-left
 {
+    align-items: right;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
     margin: 0 0 0 0;
     padding: 0 2% 0 2%;
     width: 60%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-
-    background-color: rgba(255, 255, 255, 0.95);
 }
 div.main-right
 {
+    align-items: right;
+    background-color: rgba(68, 68, 68, 0.9);
+    border-left: 5px solid rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: 40%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    
-    background-color: rgba(68, 68, 68, 0.9);
-    border-left: 5px solid rgb(48, 48, 48);
 }
