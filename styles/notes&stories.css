@@ -6,32 +6,32 @@ body
     flex-direction: column;
     margin: auto;
     min-height: 100vh;
-    padding: 0;
     width: auto;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
 {
-    min-height: 100vh;
+    min-height: 15vh;
     width: 100%;
 }
+.main section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .main button
 { 
     background-color: rgba(128, 128, 128, 0.377);
     border: 2px solid black;
-    height: 500px;
-    margin: 100px 5px 10px 5px;
-    width: 500px;
-}
-.main section
-{
-    align-items: flex-start;
+    height: 100px;
+    margin: 10px 5px 10px 5px;
+    width: 100px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
 }
-
 .main button:hover
 {
     background-color: rgba(255, 255, 255, 0.61);
@@ -43,27 +43,81 @@ main
     color: black;
     opacity: 0;
 }
-.main h2
-{
-    font-size: 18pt;
-    font: helvetica;
-}
-.main h3
-{
-    font-size: 12pt;
-    font: helvetica;
-}
 .main h1
 {
     background-color: white;
     border: 2px solid black;
     color: rgb(0, 0, 0);
+    font-size: 10pt;
     left: 2%;
     opacity: 1;
-    padding: 0 0px 0 0;
-    position: relative;
-    top: -35%;
-    width: 100px;
+    width: 50px;
+}
+
+.main h2
+{
+    font-size: 8pt;
+    font: helvetica;
+}
+.main h3
+{ 
+    font-size: 4pt;
+    font: helvetica;
+}
+.main h4
+{
+    font-size: 30pt;
+    color: white;
+    margin: 10px 0 0 10px;
+    font: helvetica;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+@media screen and (min-width: 600px) and (min-height: 600px)
+{
+    .main button
+    { 
+    background-color: rgba(128, 128, 128, 0.377);
+    border: 2px solid black;
+    height: 300px;
+    margin: 10px 5px 10px 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .main h1
+    {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 2px solid black;
+        color: rgb(0, 0, 0);
+        font-size: 30pt;
+        opacity: 1;
+        width: 150px;
+        vertical-align: center;
+        margin-top: 100px;
+    }
+    .main h2
+    {
+        font-size: 25pt;
+        font: helvetica;
+    }
+    .main h3
+    { 
+        font-size: 22pt;
+        font: helvetica;
+        font-weight: 300;
+    }
+    .main h4
+    {
+        font-size: 50pt;
+        color: white;
+        margin: 10px 0 0 10px;
+        font: helvetica;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+    }
+
 }
 /*----------------------------------------------------------------------------------------------*/
 button.notes
@@ -72,7 +126,7 @@ button.notes
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/List.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 450px auto;
+    background-size: 100%;
 }
 .notes div
 {
@@ -90,7 +144,8 @@ button.notes
 button.tennis
 {
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/TennisNotes.jpg);
-    background-size: 500px 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .tennis div
 {
@@ -108,7 +163,8 @@ button.tennis
 button.stories
 {
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/Reading.jpg);
-    background-size: 500px 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .stories div
 {
@@ -122,3 +178,7 @@ button.stories
     color: black;
     opacity: 1;
 }
+/*----------------------------------------------------------------------------------------------*/
+
+
+

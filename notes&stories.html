@@ -5,6 +5,8 @@
     <title>Learning How to Live</title>
     <link href="/styles/header&footer.css" rel="stylesheet">
     <link href="/styles/notes&stories.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/test.js"></script>
 </head>
 
 <body>
@@ -12,25 +14,24 @@
         <div>
             <h1>theAlanDu</h1>
             <h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
             </h2>
         </div>
     </header>
 
     <main class="main">
+        <h4>Notes & Stories</h4>
         <section>
-            <a href="notes.html"><button class="notes">
-                    <h1>Notes</h1>
-                    <div>
-                        <h2>Just for general stuff</h2>
-                        <h3>
-                            Because I forget
-                        </h3>
-                    </div>
-                </button></a>
+            <button class="notes" onclick="test()">
+                <h1>Notes</h1>
+                <div>
+                    <h2>Just for general stuff</h2>
+                    <h3>
+                        Because I forget
+                    </h3>
+                </div>
+            </button>
 
             <a href=".html"><button class="tennis">
                     <h1>Tennis</h1>
@@ -42,30 +43,34 @@
                     </div>
                 </button></a>
 
-                <a href=".html"><button class="stories">
-                        <h1>Stories</h1>
-                        <div>
-                            <h2>Who doesn't love a good one?</h2>
-                            <h3>
-                                Once upon a time...
-                            </h3>
-                        </div>
-                    </button></a>
+            <a href=".html"><button class="stories">
+                    <h1>Stories</h1>
+                    <div>
+                        <h2>Who doesn't love a good one?</h2>
+                        <h3>
+                            Once upon a time...
+                        </h3>
+                    </div>
+                </button></a>
         </section>
     </main>
 
+    <main id="added-section">
+
+    </main>    
+
     <footer class="footer">
-            <div>
-                <h1>"Do what makes you get out of bed."</h1>
-                <div class="button">
-                    <a href="mailto:theAlanDu@gmail.com" id="email"><button>Gmail</button></a>
-                    <a href="https://www.instagram.com/alanltdu/" id="instagram"><button>Instagram</button></a>
-                    <a href="https://www.linkedin.com/in/alan-du" id="linkedin"><button>LinkedIn</button></a>
-                </div>
-                <h2>© 2019
-                    Alan Du</h2>
+        <div>
+            <h1>"Do what makes you get out of bed."</h1>
+            <div class="button">
+                <a href="mailto:theAlanDu@gmail.com" id="email"><button>Gmail</button></a>
+                <a href="https://www.instagram.com/alanltdu/" id="instagram"><button>Instagram</button></a>
+                <a href="https://www.linkedin.com/in/alan-du" id="linkedin"><button>LinkedIn</button></a>
             </div>
-        </footer>
+            <h2>© 2019
+                Alan Du</h2>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -27,49 +27,102 @@ main
 .main img
 {
     border-bottom:5px solid rgb(48, 48, 48);
+    border-radius: 10px;
     height: auto;
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
 }
 .main h1
 {
+    font-size: 24pt;
     font: helvetica;
-    font-size: 18pt;
+    margin: 20px 15px 0px 15px;
 }
 .main h2
 {
+    font-size: 15pt;  
+    font-weight: 300; 
     font: helvetica;
-    font-size: 12pt;    
+    margin: 0px 15px 5px 15px; 
+    color: gray;
 }
 .main h3
+{
+    font-size: 15pt;
+    font-weight: 300; 
+    font: helvetica;
+    line-height: 1.5;
+    margin: 0px 15px 15px 15px; 
+}
+.main h4
+{
+    font-size: 15pt;
+    font: helvetica;
+    margin: 20px 20px 15px 20px;
+    text-align: center;
+}
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+a
 {
     font: helvetica;
     font-size: 15pt;
 }
-
 /*----------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 600px)
 {
+    main
+    {   
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        font: helvetica;
+        justify-content: end;
+        min-height: calc (100vh - 150px);
+    }
+    
     .main img
     {
         border-bottom:5px solid rgb(48, 48, 48);
+        border-radius: 10px;
         height: auto;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
     }
     .main h1
     {
+        font-size: 30pt;
         font: helvetica;
-        font-size: 18pt;
+        margin: 20px 30% 0px 30%;
     }
     .main h2
     {
+        color: gray;
+        font-size: 15pt;  
+        font-weight: 1000;
         font: helvetica;
-        font-size: 12pt;    
+        margin: 0 30% 0 30%; 
+         
     }
     .main h3
     {
+        font-size: 12pt;
+        font-weight: 200; 
         font: helvetica;
+        margin: 0 30% 15px 30%;
+    }
+    .main h4
+    {
         font-size: 15pt;
-    } 
+        font: helvetica;
+        margin: 20px 40% 15px 40%;
+        text-align: center;
+    }    
 }
