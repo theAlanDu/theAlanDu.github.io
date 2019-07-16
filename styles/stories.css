@@ -69,10 +69,17 @@ section
     justify-content: space-between;
     margin: 0 10px 0 10px;
 }
-a
+.nav a, .nav a:visited
 {
+    color: black;
     font: helvetica;
     font-size: 15pt;
+    margin: 0 20% 15px 20%;
+}
+
+iframe
+{
+    align-self: center;
 }
 /*----------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 600px)
