@@ -1,112 +1,94 @@
-body
-{
-    width: auto;
-    margin:auto;
-    padding:0;
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-    border: black;
-    background-color: rgb(71, 71, 71)
-}
-/*----------------------------------------------------------------------------------------------*/
-header
+#notes-section img
 {
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 0px 0px 50px;
-    height: 50px;
-    align-items: middle;
-}
-div.header
-{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-h1.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 18pt;
-}
-h2.header
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
-}
-ul.header
-{
-    display: flex;
-    flex-direction: row;
-}
-li.header
-{
-    padding: 0px 50px 0px 0px;
-}
-/*----------------------------------------------------------------------------------------------*/
-main
-{
-
-}
-h1.main
-{
-    margin: 10px 0 0 2%;
-    color:red;
-}
-h2.main
-{
-    margin: 0 0 0 2%;
-    font-size: 12pt;
-    color: gray;
-
-}
-img.main
-{
-    max-width: 10%;
-    max-height: 25%;
-    min-height: 25%;
+    display: block;
+    border-bottom:5px solid rgb(48, 48, 48);
+    border-radius: 10px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
-div.main
+#notes-section h1
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    font-size: 24pt;
+    font: helvetica;
+    margin: 20px 15px 0px 15px;
 }
-/*----------------------------------------------------------------------------------------------*/
-footer
-{   
-    background:rgb(0, 0, 0);
-    border: black;
-    padding: 0px 50px 0px 50px;
-    height: 50px;
-    align-items: middle;
-    width:auto;
-    margin-top: auto;
-}
-div.footer
+#notes-section h2
 {
-    height: 50px;
+    font-size: 15pt;  
+    font-weight: 300; 
+    font: helvetica;
+    margin: 0px 15px 5px 15px; 
+    color: gray;
+}
+#notes-section h3
+{
+    font-size: 15pt;
+    font-weight: 300; 
+    font: helvetica;
+    line-height: 1.5;
+    margin: 0px 15px 15px 15px; 
+}
+#notes-section h4
+{
+    font-size: 15pt;
+    font: helvetica;
+    margin: 20px 20px 15px 20px;
+    text-align: center;
+}
+#notes-section section
+{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    margin: 0 10px 0 10px;
 }
-h1.footer
+#notes-section a
 {
-    color: white;
-    font-style: helvetica;
-    font-size: 18pt;
+    font: helvetica;
+    font-size: 15pt;
 }
-h2.footer
-{
-    color: white;
-    font-style: helvetica;
-    font-size: 12pt;
+/*----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 600px)
+{   
+    #notes-section img
+    {
+        border-bottom:5px solid rgb(48, 48, 48);
+        border-radius: 10px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+    #notes-section h1
+    {
+        font-size: 30pt;
+        font: helvetica;
+        margin: 20px 30% 0px 30%;
+    }
+    #notes-section h2
+    {
+        color: gray;
+        font-size: 15pt;  
+        font-weight: 1000;
+        font: helvetica;
+        margin: 0 30% 0 30%; 
+         
+    }
+    #notes-section h3
+    {
+        font-size: 12pt;
+        font-weight: 200; 
+        font: helvetica;
+        margin: 0 30% 15px 30%;
+    }
+    #notes-section h4
+    {
+        font-size: 15pt;
+        font: helvetica;
+        margin: 20px 40% 15px 40%;
+        text-align: center;
+    }    
 }

@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(255, 255, 255);
     border: gray;
     display: flex;
     flex-direction: column;
@@ -9,16 +9,18 @@ body
     width: auto;
 }
 /*----------------------------------------------------------------------------------------------*/
-main
+main.main
 {
     min-height: 15vh;
     width: 100%;
+    background-color: rgb(43, 43, 43);
 }
 .main section
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .main button

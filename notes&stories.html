@@ -5,6 +5,8 @@
     <title>Learning How to Live</title>
     <link href="/styles/header&footer.css" rel="stylesheet">
     <link href="/styles/notes&stories.css" rel="stylesheet">
+    <link href="/styles/notes.css" rel="stylesheet">
+    <link href="/styles/stories-nav.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="scripts/test.js"></script>
 </head>
@@ -23,7 +25,7 @@
     <main class="main">
         <h4>Notes & Stories</h4>
         <section>
-            <button class="notes" onclick="test()">
+            <button class="notes" onclick="notes_section()">
                 <h1>Notes</h1>
                 <div>
                     <h2>Just for general stuff</h2>
@@ -33,17 +35,110 @@
                 </div>
             </button>
 
-            <a href=".html"><button class="tennis">
-                    <h1>Tennis</h1>
-                    <div>
-                        <h2>This game is frustrating</h2>
-                        <h3>
-                            Time to play!
-                        </h3>
-                    </div>
-                </button></a>
+            <button class="tennis" onclick="tennis_section()">
+                <h1>Tennis</h1>
+                <div>
+                    <h2>This game is frustrating</h2>
+                    <h3>
+                        Time to play!
+                    </h3>
+                </div>
+            </button></a>
 
-            <a href=".html"><button class="stories">
+            <button class="stories" onclick="stories_section()">
+                <h1>Stories</h1>
+                <div>
+                    <h2>Who doesn't love a good one?</h2>
+                    <h3>
+                        Once upon a time...
+                    </h3>
+                </div>
+            </button></a>
+        </section>
+    </main>
+
+    <main class="notes-section" id="notes-section" style="display:none">
+        <h1>Making this Website</h1>
+        <h2> Oh the struggles.</h2>
+        <h3>
+            <p>It’s kind of dark. I’ve been in my room doing the same thing I have been for the past few days: I stare
+                at a bright screen, I sleep at 4am, I wake at 11pm, and for the last 72 hours, I’ve been on and off
+                about building my first website. And all the while, I’ve been listening to podcasts about how these
+                successful people changed their thinking for the better.</p>
+        </h3>
+        <img src="https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/7-13-19_laptop.jpg">
+        <h3>
+            <p> “Why are you making a website?” A few of my friends asked me as I excitedly sent them the URL to my
+                webpages. <em>C’mon, why do I do anything?</em> Damn. It’s a hard question. Here I am, staring intently
+                at the small gap on my webpage thinking: <em>I really cannot get rid of that gap. Is it the
+                    padding?</em> Possibly. <em>Is it the width?</em> Nope. After trying out so many things, I finally
+                find it: It’s the invisible bullet points from the unsorted list. What a struggle.</p>
+
+            <p> It might just be another phase I’m going through. I recall a year ago, I did the same thing: I went onto
+                YouTube and searched up “Motivational Videos” and watched a few. <em>Take action, it’s a numbers game,
+                    discipline, schedule your life, get up in the morning and just go.</em> And yet, within a few weeks
+                after that, it was back to the same schedule again. Go to school, get home, shower, tennis, watch my
+                animes, eat, and repeat. So much for that motiv—Ahh fuck it. I don’t care, let’s try it again anyways.
+            </p>
+        </h3>
+        <h4>
+            makes me think about life—and not in the typical way</h4>
+        <h3>
+            <p>Lately, I’ve been listening a lot to this pretty well-known “motivational” speaker, Tony Robbins. I put
+                motivational in quotes because he says he isn’t a motivational speaker. Instead, he presents himself as
+                the “why” guy. I’ll go into more depth <a>later</a> about his key points, but for now, I must say, he
+                makes me think about life—and not in the typical way I usually do.
+            </p>
+
+            <p>So why am I making a website? Because it’s an experiment regarding what Tony Robbins has been talking
+                about. I’m using this website as both an outlet for thoughts and a test to see if I can use a
+                restructured thought process to make this happen.
+            </p>
+        </h3>
+    </main>
+
+    <main id="tennis-section" style="display:none">
+        <h1>Tennis Randomness</h1>
+        <h2> Why, oh why?</h2>
+        <h3>
+            Weeeee
+        </h3>
+        <img src="https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/7-13-19_laptop.jpg">
+        <h3>
+
+        </h3>
+        <h4>
+            Bloop</h4>
+        <h3>
+
+            </p>
+        </h3>
+    </main>
+    <!-- --------------------------------------------------------------------------------------- -->
+    <main id="stories-section" style="display:none">
+        <section>
+            <button class="notes" href=".html">
+                <h1>Notes</h1>
+                <div>
+                    <h2>Just for general stuff</h2>
+                    <h3>
+                        Because I forget
+                    </h3>
+                </div>
+            </button>
+
+            <button class="notes" href=".html">
+                <h1>Tennis</h1>
+                <div>
+                    <h2>This game is frustrating</h2>
+                    <h3>
+                        Time to play!
+                    </h3>
+                </div>
+            </button></a>
+
+            <a href="/stories/7-2-19.html">
+                <button class="notes">
                     <h1>Stories</h1>
                     <div>
                         <h2>Who doesn't love a good one?</h2>
@@ -51,13 +146,11 @@
                             Once upon a time...
                         </h3>
                     </div>
-                </button></a>
+                </button>
+            </a>
         </section>
     </main>
 
-    <main id="added-section">
-
-    </main>    
 
     <footer class="footer">
         <div>
