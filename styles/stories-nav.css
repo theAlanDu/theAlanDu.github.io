@@ -20,12 +20,13 @@ section.stories-section
     width: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 /* -------------------------------------------------------------------------------- */
 .stories-section h1
 {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.329);
     border: 2px solid black;
     color: rgb(0, 0, 0);
     font-size: 8pt;
@@ -37,15 +38,11 @@ section.stories-section
 {
     font-size: 8pt;
     font: helvetica;
-    position: relative;
-    top: 10px;
 }
 .stories-section h3
 { 
     font-size: 4pt;
     font: helvetica;
-    position: relative;
-    top: 20px;
 }
 #stories-section h4
 {
@@ -60,7 +57,7 @@ section.stories-section
 .stories-section div
 {
     display: none;
-    text-align: center;
+    height: 0;
 }
 .stories-section button:hover div
 {
@@ -83,7 +80,7 @@ button.July122019
 {
     background-color:white;
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/7-12-19_laptop.jpg);
-    background-position: center;
+    background-position: ;
     background-repeat: no-repeat;
     background-size: 110%;
 }
