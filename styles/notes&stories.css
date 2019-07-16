@@ -11,28 +11,31 @@ body
 /*----------------------------------------------------------------------------------------------*/
 main.main
 {
+    background-color: rgb(43, 43, 43);
     min-height: 15vh;
     width: 100%;
-    background-color: rgb(43, 43, 43);
 }
 .main section
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
-
 .main button
 { 
     background-color: rgba(128, 128, 128, 0.377);
     border: 2px solid black;
-    height: 100px;
-    margin: 10px 5px 10px 5px;
-    width: 100px;
     display: flex;
     flex-direction: column;
+    height: 100px;
     justify-content: center;
+    margin: 10px 5px 10px 5px;
+    width: 100px;
+}
+/*--------------------------------Hovering-----------------------------------------------------*/
+.main div
+{
+    display: none;
 }
 .main button:hover
 {
@@ -41,40 +44,46 @@ main.main
     transition: 1s;
 }
 .main button:hover h1
-{
-    color: black;
-    opacity: 0;
+{   
+    display: none
 }
+/*-------------------------------------Fonts--------------------------------------------*/
 .main h1
 {
     background-color: white;
     border: 2px solid black;
     color: rgb(0, 0, 0);
+    display: block;
     font-size: 10pt;
     left: 2%;
-    opacity: 1;
+    margin: 55px 0 0 36px;
+    position: relative;
     width: 50px;
 }
-
 .main h2
 {
     font-size: 8pt;
     font: helvetica;
+    position: relative;
+    top: 20px;
 }
 .main h3
 { 
     font-size: 4pt;
     font: helvetica;
+    position: relative;
+    top: 20px;
 }
 .main h4
 {
-    font-size: 30pt;
     color: white;
-    margin: 10px 0 0 10px;
+    font-size: 30pt;
     font: helvetica;
-    text-shadow: 5px 5px 5px black;
+    margin: 10px 0 0 10px;
     text-align: center;
+    text-shadow: 5px 5px 5px black;
 }
+/*-----------------------------------Bigger formats--------------------------------------------------------*/
 @media screen and (min-width: 600px) and (min-height: 600px)
 {
     .main button
@@ -96,19 +105,22 @@ main.main
         font-size: 30pt;
         opacity: 1;
         width: 150px;
-        vertical-align: center;
-        margin-top: 100px;
+        margin: 200px 0 0 131px;
     }
     .main h2
     {
         font-size: 25pt;
         font: helvetica;
+        position: relative;
+        top: 70px;
     }
     .main h3
     { 
         font-size: 22pt;
         font: helvetica;
         font-weight: 300;
+        position: relative;
+        top: 60px;
     }
     .main h4
     {
@@ -133,14 +145,14 @@ button.notes
 .notes div
 {
     left: 0%;
-    opacity: 0;
+    display: none;
     position: relative;
     top: -40%;
 }
 .main button:hover.notes div
 {
     color: black;
-    opacity: 1;
+    display: block;
 }
 /*----------------------------------------------------------------------------------------------*/
 button.tennis
@@ -152,14 +164,14 @@ button.tennis
 .tennis div
 {
     left: 0%;
-    opacity: 0;
+    display: none;
     position: relative;
     top: -40%;
 }
 .main button:hover.tennis div
 {
     color: black;
-    opacity: 1;
+    display: block;
 }
 /*----------------------------------------------------------------------------------------------*/
 button.stories
@@ -171,14 +183,14 @@ button.stories
 .stories div
 {
     left: 0%;
-    opacity: 0;
+    display: none;
     position: relative;
     top: -40%;
 }
 .main button:hover.stories div
 {
     color: black;
-    opacity: 1;
+    display: block;
 }
 /*----------------------------------------------------------------------------------------------*/
 
