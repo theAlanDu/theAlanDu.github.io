@@ -21,6 +21,7 @@ section.stories-section
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 /* -------------------------------------------------------------------------------- */
 .stories-section h1
@@ -88,6 +89,7 @@ section.stories-section
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        overflow: hidden;
     }    
     .stories-section h1
     {
@@ -132,6 +134,7 @@ section.stories-section
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        overflow: hidden;
     }    
     .stories-section h1
     {
