@@ -69,7 +69,7 @@ section
     justify-content: space-between;
     margin: 0 10px 0 10px;
 }
-.nav a, .nav a:visited
+.nav a, .nav a:visited 
 {
     color: black;
     font: helvetica;
@@ -92,6 +92,7 @@ iframe
         font: helvetica;
         justify-content: end;
         min-height: calc (100vh - 150px);
+        margin: 0 30% 0 30%;
     }
     
     .main img
@@ -101,13 +102,13 @@ iframe
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        width: 35%;
+        width: 80%;
     }
     .main h1
     {
         font-size: 30pt;
         font: helvetica;
-        margin: 20px 30% 0px 30%;
+        margin: 20px 0 0 0;
     }
     .main h2
     {
@@ -115,7 +116,7 @@ iframe
         font-size: 15pt;  
         font-weight: 1000;
         font: helvetica;
-        margin: 0 30% 0 30%; 
+        margin: 0 0 0 0; 
          
     }
     .main h3
@@ -123,13 +124,27 @@ iframe
         font-size: 12pt;
         font-weight: 200; 
         font: helvetica;
-        margin: 0 30% 15px 30%;
+        margin: 0 0 15px 0;
     }
     .main h4
     {
         font-size: 15pt;
         font: helvetica;
-        margin: 20px 40% 15px 40%;
+        margin: 20px 10% 15px 10%;
         text-align: center;
-    }    
+    } 
+    section
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+    }  
+    .nav a, .nav a:visited 
+    {
+    color: black;
+    font: helvetica;
+    font-size: 12pt;
+    font-weight: 800;
+    } 
 }

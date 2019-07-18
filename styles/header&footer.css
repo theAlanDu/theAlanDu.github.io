@@ -14,6 +14,13 @@ header
     justify-content: space-between;
     margin-left: 15px;
 }
+a.logo
+{
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
 .logo h1
 {
     color: white;
@@ -27,13 +34,7 @@ header
     font-size: 10pt;
     font-style: helvetica;
     margin-right: 0px;
-    margin-top: 20px;
-}
-div.logo
-{
-    margin: 0 0 0 0;
-    display: flex;
-    flex-direction: row;
+    padding-bottom: 7px;
 }
 .header h2
 {

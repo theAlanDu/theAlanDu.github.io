@@ -1,5 +1,6 @@
 body
 {
+    background-attachment: fixed;
     background-color: black;
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/FlyBy.jpg);
     background-position: 60%;
@@ -10,7 +11,6 @@ body
     flex-direction: column;
     margin: auto;
     min-height: 100vh;
-    padding: 0;
     width: auto;
 }
 /*----------------------------------------------------------------------------------------------*/
@@ -138,7 +138,6 @@ div.right
     main
     {
         min-height: calc(100vh - 1040px);
-        position: relative;
     }
 
     .main h1
@@ -163,7 +162,7 @@ div.right
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between
+        justify-content: flex-start;
         height: 600px;
         margin: 50px 100px 100px 100px;
         padding: 10px 0 50px 0;
