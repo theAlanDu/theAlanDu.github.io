@@ -128,7 +128,6 @@ div.main-right
         flex-direction: column;
         margin: auto;
         min-height: 100vh;
-        min-width: 100vw;
         max-width: 100vw;
     }    
     .main-left h1

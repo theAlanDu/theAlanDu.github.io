@@ -134,6 +134,7 @@ div.right
         margin: auto;
         min-height: 100vh;
         width: auto;
+        max-width: 100vw;
     }
     main
     {
@@ -164,8 +165,9 @@ div.right
         flex-direction: column;
         justify-content: flex-start;
         height: 600px;
-        margin: 50px 100px 100px 100px;
+        margin: 50px auto 100px auto;
         padding: 10px 0 50px 0;
+        width: 600px;
     }    
     #email button
     {
