@@ -4,16 +4,14 @@ body
     background-color: rgb(0, 0, 0);
     background-attachment: fixed;
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-position: 35%;
+    background-position: 25%;
     background-repeat: no-repeat;
-    background-size: 300vh;
     border: gray;
     display: flex;
     flex-direction: column;
     margin: auto;
     min-height: 100vh;
     padding: 0;
-    width: 100vw;
 }
 /*----------------------------------------------------------------------------------------------*/
 main
