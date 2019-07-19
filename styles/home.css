@@ -5,7 +5,7 @@ body
     background-color: black;
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
     background-position: center center;
-    background-size:  auto 1000px;
+    background-size:  cover;
     background-repeat: no-repeat;
     border: gray;
     display: flex;
@@ -121,7 +121,7 @@ div.main-right
         background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
         background-position: 30%;
         background-repeat: no-repeat;
-        background-size: auto auto;
+        background-size: cover;
         border: gray;
         display: flex;
         flex-direction: column;
