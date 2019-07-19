@@ -1,10 +1,11 @@
 
 body
 {    
-    background-color: rgb(0, 0, 0);
     background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-position: 25%;
+    background-position: 27% 40%;
+    background-size: auto;
     background-repeat: no-repeat;
     border: gray;
     display: flex;
@@ -116,17 +117,17 @@ div.main-right
 {
     body
     {    
+        background-attachment: fixed;
         background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
         background-position: 30%;
         background-repeat: no-repeat;
-        background-size: auto 110%;
+        background-size: auto auto;
         border: gray;
         display: flex;
         flex-direction: column;
         margin: auto;
         min-height: 100vh;
-        padding: 0;
-        width: 100%;
+        min-width: 100vh;
     }    
     .main-left h1
     {
