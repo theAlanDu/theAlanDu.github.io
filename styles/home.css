@@ -4,13 +4,14 @@ body
     background-attachment: fixed;
     background-color: black;
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-position: center center;
-    background-size:  cover;
+    background-position: 20% 0;
     background-repeat: no-repeat;
+    background-size:  cover;
     border: gray;
     display: flex;
     flex-direction: column;
     margin: auto;
+    max-width: 100vw;
     min-height: 100vh;
     padding: 0;
 }
@@ -127,7 +128,8 @@ div.main-right
         flex-direction: column;
         margin: auto;
         min-height: 100vh;
-        min-width: 100vh;
+        min-width: 100vw;
+        max-width: 100vw;
     }    
     .main-left h1
     {
