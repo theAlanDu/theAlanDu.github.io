@@ -4,8 +4,8 @@ body
     background-attachment: fixed;
     background-color: rgb(0, 0, 0);
     background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/KawiH2.jpg);
-    background-position: 27% 40%;
-    background-size: auto;
+    background-position: -150px;
+    background-size:  auto 100vh;
     background-repeat: no-repeat;
     border: gray;
     display: flex;
