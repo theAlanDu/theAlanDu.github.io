@@ -28,14 +28,6 @@ a.logo
     font-style: helvetica;
     margin-right: 0px;
 }
-.logo h3
-{
-    color: white;
-    font-size: 10pt;
-    font-style: helvetica;
-    margin-right: 0px;
-    padding-bottom: 5px;
-}
 .header h2
 {
     color: white;
@@ -178,13 +170,6 @@ div.button
         font-size: 32pt;
         font-style: helvetica;
         margin-right: 0px;
-    }
-    .logo h3
-    {
-        color: white;
-        font-size: 18pt;
-        font-style: helvetica;
-        padding-bottom: 9px;
     }
     div.logo
     {
