@@ -33,28 +33,33 @@ main
     margin-right: auto;
     width: 70%;
 }
+/* title */
 .main h1
 {
     font-size: 24pt;
     font: helvetica;
-    margin: 20px 15px 0px 15px;
+    margin: 20px auto 0px auto;
+    text-align: center;
 }
+/* subtitle */
 .main h2
 {
     font-size: 15pt;  
     font-weight: 300; 
     font: helvetica;
-    margin: 0px 15px 5px 15px; 
+    margin: 5px auto 5px auto; 
     color: gray;
 }
+/* maintext */
 .main h3
 {
     font-size: 15pt;
     font-weight: 300; 
     font: helvetica;
     line-height: 1.5;
-    margin: 0px 15px 15px 15px; 
+    margin: 0px 15px 10px 15px; 
 }
+/* quotes */
 .main h4
 {
     font-size: 15pt;
@@ -62,24 +67,47 @@ main
     margin: 20px 20px 15px 20px;
     text-align: center;
 }
-section
+/* title2 */
+.main h5
+{
+    font-size: 15pt;
+    font: helvetica;
+    font-weight: 600;
+    margin: 0px 15px 15px 15px; 
+}
+/* bolded actions */
+.main h6
+{
+    font: helvetica;
+    font-size: 12pt;
+    font-weight: 400;
+    margin: 0 20px 0 20px;
+    line-height: 16pt;
+    padding: 0;
+}
+/* ------------------------------------------------- */
+p
+{
+    margin: 0 0 10px 0;
+}
+section.nav
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 10px 0 10px;
+    margin: 50px 10px 0 10px;
 }
 .nav a, .nav a:visited 
 {
     color: black;
     font: helvetica;
     font-size: 15pt;
-    margin: 0 20% 15px 20%;
+    margin: 0 0 15px 0;
 }
-
 iframe
 {
     align-self: center;
+    margin: 10px 0 10px 0;
 }
 /*----------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 600px)
@@ -100,15 +128,14 @@ iframe
         border-bottom:5px solid rgb(48, 48, 48);
         border-radius: 10px;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 20px auto;
         width: 80%;
     }
     .main h1
     {
         font-size: 30pt;
         font: helvetica;
-        margin: 20px 0 0 0;
+        margin: 20px auto 0 auto;
     }
     .main h2
     {
@@ -116,8 +143,8 @@ iframe
         font-size: 15pt;  
         font-weight: 1000;
         font: helvetica;
-        margin: 0 0 0 0; 
-         
+        text-align: center;
+        margin: 0 auto 0 auto;
     }
     .main h3
     {
@@ -130,15 +157,28 @@ iframe
     {
         font-size: 15pt;
         font: helvetica;
-        margin: 20px 10% 15px 10%;
+        margin: 5px 10% 15px 10%;
         text-align: center;
     } 
+    .main h5
+    {
+        font-weight: 600;
+        margin: 0 0 0 0;
+    }
+    .main h6
+    {
+        font-size: 12pt;
+        font-weight: 600;
+        margin: 0 10% 0 10%;
+        padding: 0;
+        text-align: center;
+    }
     section
     {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 10% 0 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10% 0 10%;
     }  
     .nav a, .nav a:visited 
     {
