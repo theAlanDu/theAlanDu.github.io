@@ -45,18 +45,18 @@ a.logo
 }
 #nav_exit
 {
-    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/Hamburger_Icon.png);
+    background-image: url(https://raw.githubusercontent.com/theAlanDu/theAlanDu.github.io/master/photos/Close_X.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: none;
     display: none;
-    height: 40px;
-    margin-right: 13px;
-    margin-top: 15px;
+    height: 15px;
+    margin-right: 20px;
+    margin-top: 30px;
     position: absolute;
     right: 0;
     top: 0;
-    width: 30px;
+    width: 18px;
 }
 #nav_links
 {
