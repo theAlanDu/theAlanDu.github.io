@@ -3,20 +3,31 @@
     <link href="/styles/header&footer.css" rel="stylesheet">
     <link href="/styles/stories.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/test.js"></script>
 </head>
 
 <body>
 
     <header class="header">
+
+        <!--Logo-->
         <div>
-            <div class="logo">
+            <a class="logo" href="index.html">
                 <h1>Alan Du</h1>
-            </div>
-            <h2>
-                <a href="../index.html">Home</a>
-                <a href="../contact.html">Contact</a>
-            </h2>
+            </a>
         </div>
+
+        <!--Nav Menu Button-->
+        <button id="nav_toggle" onclick="nav_toggle()"></button>
+        <button id="nav_exit" onclick="nav_exit()"></button>
+
+        <!--Nav Menu Links and Shade-->
+        <h2 id="nav_links">
+            <a id="link_1" href="notes&stories.html">Notes+Stories</a>
+            <a id="link_2" href="contact.html">Contact</a>
+        </h2>
+        <div id="shade"></div>
+
     </header>
 
     <main class="main">
@@ -49,7 +60,8 @@
                 listened as Federer explained how he felt about the two match points he could have won to take the
                 championship and about his loss:</p>
 
-            <p><h6>“No, not really. I was still happy to be at 8-all, 9-all? You try to see the positives, you try
+            <p>
+                <h6>“No, not really. I was still happy to be at 8-all, 9-all? You try to see the positives, you try
                     to take
                     it as a good thing—you’re not down a break, or the match is not over yet…You just always try to push
                     yourself to see things on the better side, but yes it was definitely tough to have those chances…You
@@ -57,7 +69,8 @@
                     match—there’s tons of it. And…think, ‘well it’s not that bad’ but for now, it hurts, and it should…I
                     think I’m very strong at being able to move on. I don’t want to be depressed about an actually,
                     amazing
-                    tennis match.”</h6></p>
+                    tennis match.”</h6>
+            </p>
         </h3>
         <iframe width="320" height="180" src="https://www.youtube.com/embed/Uok6qGO8iJI?start=15" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
