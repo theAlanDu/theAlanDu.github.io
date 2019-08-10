@@ -246,9 +246,13 @@ div.button
         font-size: 18pt;
         font-weight: 600;
     }
-    #nav_toggle, #nav_exit
+    #nav_toggle
     {
         margin-top: 10px;
+    }
+    #nav_exit
+    {
+        margin-top: 23px;
     }
     #nav_links
     {
