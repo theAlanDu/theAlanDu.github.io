@@ -6,21 +6,33 @@
     <link href="/styles/header&footer.css" rel="stylesheet">
     <link href="/styles/home.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/test.js"></script>
 </head>
 
 <body>
 
     <header class="header">
+
+        <!--Logo-->
         <div>
-            <a class="logo">
+            <a class="logo" href="index.html">
                 <h1>Alan Du</h1>
             </a>
-            <h2>
-                <a href="notes&stories.html">Notes+Stories</a>
-                <a href="contact.html">Contact</a>
-            </h2>
         </div>
+    
+        <!--Nav Menu Button-->
+        <button id="nav_toggle" onclick="nav_toggle()"></button>
+        <button id="nav_exit" onclick="nav_exit()"></button>
+    
+        <!--Nav Menu Links and Shade-->
+        <h2 id="nav_links">
+            <a id="link_1" href="notes&stories.html">Notes+Stories</a>
+            <a id="link_2" href="contact.html">Contact</a>
+        </h2>
+        <div id="shade"></div>
+    
     </header>
+
 
     <main>
         <section class="main">

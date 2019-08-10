@@ -12,17 +12,29 @@
 </head>
 
 <body>
+    
     <header class="header">
+
+        <!--Logo-->
         <div>
             <a class="logo" href="index.html">
                 <h1>Alan Du</h1>
             </a>
-            <h2>
-                <a href="index.html">Home</a>
-                <a href="contact.html">Contact</a>
-            </h2>
         </div>
+
+        <!--Nav Menu Button-->
+        <button id="nav_toggle" onclick="nav_toggle()"></button>
+        <button id="nav_exit" onclick="nav_exit()"></button>
+
+        <!--Nav Menu Links and Shade-->
+        <h2 id="nav_links">
+            <a id="link_1" href="index.html">Home</a>
+            <a id="link_2" href="contact.html">Contact</a>
+        </h2>
+        <div id="shade"></div>
+
     </header>
+    <!-- ------------------------------------------------------ -->
 
     <main class="main">
         <h4>Notes & Stories</h4>
@@ -57,8 +69,9 @@
                 </div>
             </button></a>
         </section>
-    </main>
 
+    </main>
+    <!-- ------------------------------------------------------ -->
     <main class="notes-section" id="notes-section" style="display:none">
         <h1>Notes</h1>
         <h2> I actually don't bother to remember</h2>
@@ -66,7 +79,7 @@
             <p>Just some notes for life.</p>
         </h3>
     </main>
-    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------ -->
     <main id="tennis-section" style="display:none">
         <h1>Tennis Randomness</h1>
         <h2> Why, oh why?</h2>
@@ -84,18 +97,18 @@
             </p>
         </h3>
     </main>
-<!-- --------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------ -->
     <main id="stories-section" style="display:none">
         <h4>Stories</h4>
         <section class="stories-section">
             <a href="/stories/7-23-19.html">
-            <button class="July232019">
-                <h1>July 23, 2019</h1>
-                <div>
-                    <h2>The Tasks of Everyday Life</h2>
-                    <h3>How do I make this <strike>faster</strike> more enjoyable</h3>
-                </div>
-            </button></a>
+                <button class="July232019">
+                    <h1>July 23, 2019</h1>
+                    <div>
+                        <h2>The Tasks of Everyday Life</h2>
+                        <h3>How do I make this <strike>faster</strike> more enjoyable</h3>
+                    </div>
+                </button></a>
 
             <a href="/stories/7-16-19.html">
                 <button class="July162019">
@@ -116,7 +129,7 @@
                 </button></a>
         </section>
     </main>
-    <!-- --------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------ -->
 
     <footer class="footer">
         <div>
