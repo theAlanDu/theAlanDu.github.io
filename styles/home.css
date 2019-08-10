@@ -22,7 +22,7 @@ body
 /*----------------------------------------------------------------------------------------------*/
 main
 {   
-    font: helvetica;
+    font-family: Times;
     padding:20px;
 }
 section.main
@@ -57,16 +57,16 @@ div.main-right
 .main-left h1
 {
     color:black;
-    font-size: 20pt;
+    font-size: 25pt;
     font-weight: 600;
-    margin: 10px 0 0 0;
+    margin: 10px 0 -5px 0;
 }
 .main-left h2
 {
     color: black;
     font-size: 12pt;
     font-weight: 50;
-    font: helvetica;
+    font-family: Helvetica;
     margin: 0 0 10px 0;
 }
 .main-left h3
@@ -139,14 +139,14 @@ div.main-right
         color:black;
         font-size: 40pt;
         font-weight: 600;
-        margin: 10px 0 0 0;
+        margin: 10px 0 -5px 0;
     }
     .main-left h2
     {
         color: black;
         font-size: 15pt;
         font-weight: 100;
-        font: helvetica;
+        font-family: Helvetica;
         margin: 0 0 10px 0;
     }
     .main-left h3
@@ -176,6 +176,6 @@ div.main-right
         color: black;
         font-size: 15pt;
         font-weight: 500;
-        margin: 0 10px 0 3px;
+        margin: 0 10px 0 8px;
     }
 }

@@ -24,8 +24,8 @@ a.logo
 .logo h1
 {
     color: white;
-    font-size: 18pt;
-    font-style: helvetica;
+    font-size: 28pt;
+    font-family: Times;
     margin-right: 0px;
     
 }
@@ -64,7 +64,7 @@ a.logo
     display: flex;
     flex-direction: column;
     font-size: 15pt;   
-    font-style: helvetica;
+    font-family: Times;
     line-height: 40px; 
     position: absolute;
     right: 3px;
@@ -141,7 +141,7 @@ footer
 {
     color: white;
     font-size: 12pt;
-    font-style: helvetica;
+    font-family: Times;
     font-weight: 300;
     margin-left: 10px;
     margin-right: 1px;
@@ -152,7 +152,7 @@ footer
     color: white;
     margin-right: 25px;
     font-size: 10pt;
-    font-style: helvetica;
+    font-family: Times;
     font-weight: 400;
     text-align: center;
 }
@@ -230,7 +230,7 @@ div.button
     {
         color: white;
         font-size: 32pt;
-        font-style: helvetica;
+        font-family: Times;
         margin-right: 0px;
     }
     div.logo
@@ -242,7 +242,7 @@ div.button
     .header h2
     {
         color: white;
-        font-style: helvetica;
+        font-family: Times;
         font-size: 18pt; 
         font-weight: 600;
     }
@@ -281,7 +281,7 @@ div.button
     {
         color: white;
         font-size: 15pt;
-        font-style: helvetica;
+        font-family: Times;
         font-weight: 300;
         margin-right: 50px;
         text-align: end;
@@ -292,7 +292,7 @@ div.button
         color: white;
         margin-right: 25px;
         font-size: 12pt;
-        font-style: helvetica;
+        font-family: Times;
         font-weight: 400;
     }        
     #email button

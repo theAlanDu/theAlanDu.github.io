@@ -20,7 +20,7 @@ body
 /*----------------------------------------------------------------------------------------------*/
 main
 {   
-    font: helvetica;
+    font-family: Times;
     min-height: calc (100vh - 150px);
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@ main
 .main h1
 {
     font-size: 24pt;
-    font: helvetica;
+    font-family: Times;
     margin: 20px auto 0px auto;
     text-align: center;
 }
@@ -50,7 +50,7 @@ main
 {
     font-size: 15pt;  
     font-weight: 300; 
-    font: helvetica;
+    font-family: Times;
     margin: 5px auto 5px auto; 
     color: gray;
 }
@@ -59,7 +59,7 @@ main
 {
     font-size: 15pt;
     font-weight: 300; 
-    font: helvetica;
+    font-family: Times;
     line-height: 1.5;
     margin: 0px 15px 10px 15px; 
 }
@@ -67,7 +67,7 @@ main
 .main h4
 {
     font-size: 15pt;
-    font: helvetica;
+    font-family: Times;
     margin: 20px 20px 15px 20px;
     text-align: center;
 }
@@ -75,14 +75,14 @@ main
 .main h5
 {
     font-size: 15pt;
-    font: helvetica;
+    font-family: Times;
     font-weight: 600;
     margin: 0px 15px 15px 15px; 
 }
 /* bolded actions */
 .main h6
 {
-    font: helvetica;
+    font-family: Times;
     font-size: 12pt;
     font-weight: 400;
     margin: 0 20px 0 20px;
@@ -104,7 +104,7 @@ section.nav
 .nav a, .nav a:visited 
 {
     color: black;
-    font: helvetica;
+    font-family: Times;
     font-size: 15pt;
     margin: 0 0 15px 0;
 }
@@ -121,7 +121,7 @@ iframe
         align-items: flex-start;
         display: flex;
         flex-direction: column;
-        font: helvetica;
+        font-family: Times;
         justify-content: end;
         min-height: calc (100vh - 150px);
         margin: 0 30% 0 30%;
@@ -138,7 +138,7 @@ iframe
     .main h1
     {
         font-size: 30pt;
-        font: helvetica;
+        font-family: Times;
         margin: 20px auto 0 auto;
     }
     .main h2
@@ -146,7 +146,7 @@ iframe
         color: gray;
         font-size: 15pt;  
         font-weight: 1000;
-        font: helvetica;
+        font-family: Times;
         text-align: center;
         margin: 0 auto 0 auto;
     }
@@ -154,13 +154,13 @@ iframe
     {
         font-size: 12pt;
         font-weight: 200; 
-        font: helvetica;
+        font-family: Times;
         margin: 0 0 15px 0;
     }
     .main h4
     {
         font-size: 15pt;
-        font: helvetica;
+        font-family: Times;
         margin: 5px 10% 15px 10%;
         text-align: center;
     } 
@@ -187,7 +187,7 @@ iframe
     .nav a, .nav a:visited 
     {
     color: black;
-    font: helvetica;
+    font-family: Times;
     font-size: 12pt;
     font-weight: 800;
     } 
